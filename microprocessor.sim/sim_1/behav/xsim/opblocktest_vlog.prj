@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../multiplier/multiplier.srcs/sources_1/new/FA.v" \
+"../../../../../multiplier/multiplier.srcs/sources_1/new/FA16.v" \
+"../../../../RAM.srcs/sources_1/new/RAM168.v" \
+"../../../../RAM.srcs/sources_1/new/RAM2-8.v" \
+"../../../../RAM.srcs/sources_1/new/RAM4_8.v" \
+"../../../../RAM.srcs/sources_1/new/RAM8_8.v" \
+"../../../../RAM.srcs/sources_1/new/dff.v" \
+"../../../../RAM.srcs/sources_1/new/dff8.v" \
+"../../../../RAM.srcs/sources_1/new/dmux.v" \
+"../../../../RAM.srcs/sources_1/new/multiplexer.v" \
+"../../../../RAM.srcs/sources_1/new/opblock.v" \
+"../../../../RAM.srcs/sources_1/new/reg2_8.v" \
+"../../../../RAM.srcs/sim_1/new/opblocktest.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

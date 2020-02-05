@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../RAM.srcs/sources_1/new/muxx.v" \
+"../../../../RAM.srcs/sources_1/new/muxx16.v" \
+"../../../../RAM.srcs/sources_1/new/muxx32.v" \
+"../../../../RAM.srcs/sources_1/new/muxx4.v" \
+"../../../../RAM.srcs/sources_1/new/muxx8.v" \
+"../../../../RAM.srcs/sim_1/new/testmux.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
