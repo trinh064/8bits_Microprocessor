@@ -28,19 +28,22 @@ module testCPU(
     wire [127:0]R;
     wire [127:0]M;
     wire [7:0] report;
+     
   CPU MICROPROCESSOR (
    .instructions(file),
    .clk(clk),
    .clr(clr),
    .Rreg(R),
    .Mreg(M),
-   .report(report)
+   .report()
   );
   
+ assign report=M[23:16];
+ 
   
   initial
   begin
- 
+   
    file[18:00]=19'b0000000000100000001;
    file[37:19]=19'b0000000000000000001;
    file[56:38]=19'b1000000001100000010;

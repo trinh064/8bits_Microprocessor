@@ -48,6 +48,7 @@ extern void execute_5351(char*, char *);
 extern void execute_10919(char*, char *);
 extern void execute_10920(char*, char *);
 extern void execute_10921(char*, char *);
+extern void execute_10922(char*, char *);
 extern void vlog_simple_process_execute_0_fast_no_reg_no_agg(char*, char*, char*);
 extern void execute_5406(char*, char *);
 extern void execute_5407(char*, char *);
@@ -108,27 +109,27 @@ extern void execute_10901(char*, char *);
 extern void execute_5353(char*, char *);
 extern void execute_5354(char*, char *);
 extern void execute_5355(char*, char *);
-extern void execute_10922(char*, char *);
 extern void execute_10923(char*, char *);
 extern void execute_10924(char*, char *);
 extern void execute_10925(char*, char *);
 extern void execute_10926(char*, char *);
+extern void execute_10927(char*, char *);
 extern void transaction_3(char*, char*, unsigned, unsigned, unsigned);
 extern void transaction_4(char*, char*, unsigned, unsigned, unsigned);
 extern void vlog_transfunc_eventcallback(char*, char*, unsigned, unsigned, unsigned, char *);
-extern void transaction_19(char*, char*, unsigned, unsigned, unsigned);
 extern void transaction_20(char*, char*, unsigned, unsigned, unsigned);
-extern void transaction_22(char*, char*, unsigned, unsigned, unsigned);
-extern void transaction_24(char*, char*, unsigned, unsigned, unsigned);
-extern void transaction_1544(char*, char*, unsigned, unsigned, unsigned);
-extern void transaction_1546(char*, char*, unsigned, unsigned, unsigned);
-extern void transaction_1550(char*, char*, unsigned, unsigned, unsigned);
-funcp funcTab[79] = {(funcp)execute_5351, (funcp)execute_10919, (funcp)execute_10920, (funcp)execute_10921, (funcp)vlog_simple_process_execute_0_fast_no_reg_no_agg, (funcp)execute_5406, (funcp)execute_5407, (funcp)execute_5388, (funcp)execute_5356, (funcp)execute_5357, (funcp)execute_5389, (funcp)execute_5390, (funcp)execute_5391, (funcp)execute_5392, (funcp)execute_5393, (funcp)execute_5394, (funcp)execute_5395, (funcp)execute_5396, (funcp)execute_5397, (funcp)execute_5398, (funcp)execute_5399, (funcp)execute_5400, (funcp)execute_5401, (funcp)execute_5402, (funcp)execute_5403, (funcp)execute_5404, (funcp)execute_24, (funcp)execute_5408, (funcp)execute_5409, (funcp)execute_5410, (funcp)execute_5411, (funcp)execute_5412, (funcp)execute_5413, (funcp)execute_5414, (funcp)execute_5415, (funcp)execute_5416, (funcp)execute_5417, (funcp)execute_5418, (funcp)execute_5419, (funcp)execute_5420, (funcp)execute_5421, (funcp)execute_5422, (funcp)execute_5423, (funcp)execute_5424, (funcp)execute_5425, (funcp)execute_5426, (funcp)execute_5997, (funcp)execute_6007, (funcp)execute_6008, (funcp)execute_6009, (funcp)execute_6010, (funcp)execute_6011, (funcp)execute_6012, (funcp)execute_10918, (funcp)execute_6014, (funcp)execute_6015, (funcp)execute_6028, (funcp)execute_6029, (funcp)execute_10899, (funcp)execute_10900, (funcp)execute_10901, (funcp)execute_5353, (funcp)execute_5354, (funcp)execute_5355, (funcp)execute_10922, (funcp)execute_10923, (funcp)execute_10924, (funcp)execute_10925, (funcp)execute_10926, (funcp)transaction_3, (funcp)transaction_4, (funcp)vlog_transfunc_eventcallback, (funcp)transaction_19, (funcp)transaction_20, (funcp)transaction_22, (funcp)transaction_24, (funcp)transaction_1544, (funcp)transaction_1546, (funcp)transaction_1550};
-const int NumRelocateId= 79;
+extern void transaction_21(char*, char*, unsigned, unsigned, unsigned);
+extern void transaction_23(char*, char*, unsigned, unsigned, unsigned);
+extern void transaction_25(char*, char*, unsigned, unsigned, unsigned);
+extern void transaction_1545(char*, char*, unsigned, unsigned, unsigned);
+extern void transaction_1547(char*, char*, unsigned, unsigned, unsigned);
+extern void transaction_1551(char*, char*, unsigned, unsigned, unsigned);
+funcp funcTab[80] = {(funcp)execute_5351, (funcp)execute_10919, (funcp)execute_10920, (funcp)execute_10921, (funcp)execute_10922, (funcp)vlog_simple_process_execute_0_fast_no_reg_no_agg, (funcp)execute_5406, (funcp)execute_5407, (funcp)execute_5388, (funcp)execute_5356, (funcp)execute_5357, (funcp)execute_5389, (funcp)execute_5390, (funcp)execute_5391, (funcp)execute_5392, (funcp)execute_5393, (funcp)execute_5394, (funcp)execute_5395, (funcp)execute_5396, (funcp)execute_5397, (funcp)execute_5398, (funcp)execute_5399, (funcp)execute_5400, (funcp)execute_5401, (funcp)execute_5402, (funcp)execute_5403, (funcp)execute_5404, (funcp)execute_24, (funcp)execute_5408, (funcp)execute_5409, (funcp)execute_5410, (funcp)execute_5411, (funcp)execute_5412, (funcp)execute_5413, (funcp)execute_5414, (funcp)execute_5415, (funcp)execute_5416, (funcp)execute_5417, (funcp)execute_5418, (funcp)execute_5419, (funcp)execute_5420, (funcp)execute_5421, (funcp)execute_5422, (funcp)execute_5423, (funcp)execute_5424, (funcp)execute_5425, (funcp)execute_5426, (funcp)execute_5997, (funcp)execute_6007, (funcp)execute_6008, (funcp)execute_6009, (funcp)execute_6010, (funcp)execute_6011, (funcp)execute_6012, (funcp)execute_10918, (funcp)execute_6014, (funcp)execute_6015, (funcp)execute_6028, (funcp)execute_6029, (funcp)execute_10899, (funcp)execute_10900, (funcp)execute_10901, (funcp)execute_5353, (funcp)execute_5354, (funcp)execute_5355, (funcp)execute_10923, (funcp)execute_10924, (funcp)execute_10925, (funcp)execute_10926, (funcp)execute_10927, (funcp)transaction_3, (funcp)transaction_4, (funcp)vlog_transfunc_eventcallback, (funcp)transaction_20, (funcp)transaction_21, (funcp)transaction_23, (funcp)transaction_25, (funcp)transaction_1545, (funcp)transaction_1547, (funcp)transaction_1551};
+const int NumRelocateId= 80;
 
 void relocate(char *dp)
 {
-	iki_relocate(dp, "xsim.dir/testCPU_behav/xsim.reloc",  (void **)funcTab, 79);
+	iki_relocate(dp, "xsim.dir/testCPU_behav/xsim.reloc",  (void **)funcTab, 80);
 
 	/*Populate the transaction function pointer field in the whole net structure */
 }

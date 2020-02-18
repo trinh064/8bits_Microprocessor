@@ -2,16 +2,19 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Tue Feb  4 18:08:13 2020
-# Process ID: 21128
-# Current directory: C:/Users/dell/RAM
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20160 C:\Users\dell\RAM\microprocessor.xpr
-# Log file: C:/Users/dell/RAM/vivado.log
-# Journal file: C:/Users/dell/RAM\vivado.jou
+# Start of session at: Mon Feb 17 21:46:28 2020
+# Process ID: 6616
+# Current directory: C:/Users/dell/Microprocessor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7648 C:\Users\dell\Microprocessor\microprocessor.xpr
+# Log file: C:/Users/dell/Microprocessor/vivado.log
+# Journal file: C:/Users/dell/Microprocessor\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/dell/RAM/microprocessor.xpr
+open_project C:/Users/dell/Microprocessor/microprocessor.xpr
 update_compile_order -fileset sources_1
+launch_simulation
+source testCPU.tcl
+close_sim
 launch_simulation
 source testCPU.tcl
 close_sim
